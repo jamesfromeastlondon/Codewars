@@ -27,7 +27,7 @@ public static string Extract(int[] arr)
 
 public static int GetRangeEnd(int index, int[] arr)
 {
-    for (int i = index; i < arr.Length - 1; i++)
+    for (int i = index; i < arr.Length; i++)
     {
         if (i == arr.Length - 1) break;
         if (arr[i] + 1 != arr[i + 1]) return arr[i];
